@@ -6,20 +6,16 @@
     align-items: center;
     background-color: #004047;
     color: white;
-    padding: 36px 30px 70px;
+    padding: 16px 30px 70px;
 }
 
 .move-photo {
-    width: 8%;
-    height: auto;
-    align-self: flex-start;
-}
-
-.move-photo img {
-    display: block;
     width: 100%;
     height: auto;
+    align-self: flex-start;
+    background-color: #004047;
 }
+
 
 .success-stories__title {
     display: flex;
@@ -37,5 +33,3 @@
     color: #79C8C7;
 }
  
-
-dwadwaa
