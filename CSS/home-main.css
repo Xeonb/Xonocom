@@ -6,7 +6,7 @@
     align-items: center;
     background-color: #004047;
     color: white;
-    padding: 36px 30px 70px;
+    padding: 16px 30px 70px;
 }
 
 .move-photo{
@@ -22,6 +22,7 @@
     height: auto;
     background-color: #004047;
 }
+
 
 .success-stories__title {
     display: flex;
