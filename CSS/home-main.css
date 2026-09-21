@@ -45,4 +45,7 @@
     align-content: space-between;
 }
 
+.column-line1 h3, .column-line2 h3, .column-line3 h3{
+    color: #79C8C7;
+}
 
