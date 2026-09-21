@@ -10,16 +10,12 @@
 }
 
 .move-photo {
-    width: 8%;
-    height: auto;
-    align-self: flex-start;
-}
-
-.move-photo img {
-    display: block;
     width: 100%;
     height: auto;
+    background-color: #004047;
 }
+
+
 
 .success-stories__title {
     display: flex;
@@ -37,5 +33,3 @@
     color: #79C8C7;
 }
  
-
-dwadwaa
