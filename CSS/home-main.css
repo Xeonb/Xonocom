@@ -9,7 +9,15 @@
     padding: 36px 30px 70px;
 }
 
-.move-photo {
+.move-photo{
+    width: 100%;
+    height: auto;
+    background-color: #004047;
+}
+
+.move-photo1{
+    display: flex;
+    justify-content: flex-end;
     width: 100%;
     height: auto;
     background-color: #004047;
@@ -38,6 +46,10 @@
     gap: 40px;                      
 }
 
+.persons-table p{
+    font-size: 15px;
+}
+
 .column-line1, .column-line2, .column-line3 {
     text-align: center;
     display: flex;
@@ -48,6 +60,7 @@
 .column-line1 h3, .column-line2 h3, .column-line3 h3{
     color: #79C8C7;
 }
+
 
 
 
