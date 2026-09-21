@@ -1,3 +1,4 @@
+
 .success-stories {
     width: 100%;
     min-height: 280px;
@@ -15,7 +16,7 @@
     background-color: #004047;
 }
 
-.move-photo1{
+.move-photo1 {
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -47,7 +48,9 @@
 }
 
 .persons-table p{
-    font-size: 15px;
+    font-size: 17px;
+    line-height: 1.6;
+    margin: 0   ;
 }
 
 .column-line1, .column-line2, .column-line3 {
@@ -59,6 +62,13 @@
 
 .column-line1 h3, .column-line2 h3, .column-line3 h3{
     color: #79C8C7;
+    font-size: 20px;
+}
+
+.size-photo{
+    width: 67px;
+    height: 56px;
+    margin: 0 auto -25px;
 }
 
 
