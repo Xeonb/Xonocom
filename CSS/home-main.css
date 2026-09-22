@@ -1,5 +1,5 @@
 .success-stories {
-    width: 100%;
+    width: 1920px;
     min-height: 280px;
     display: flex;
     flex-direction: column;
@@ -7,20 +7,23 @@
     background-color: #004047;
     color: white;
     padding: 16px 30px 70px;
+    margin: 0 auto;
 }
 
 .move-photo{
-    width: 100%;
+    width: 1920px;
     height: auto;
     background-color: #004047;
+    margin: 0 auto;
 }
 
 .move-photo1 {
     display: flex;
     justify-content: flex-end;
-    width: 100%;
+    width: 1920px;
     height: auto;
     background-color: #004047;
+    margin: 0 auto;
 }
 
 
@@ -41,7 +44,7 @@
 }
  
 .persons-table {
-    width: 80%;
+    width: 1440px;
     height: auto;
     display: flex;
     justify-content: space-between;
