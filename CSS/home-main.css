@@ -1,6 +1,8 @@
+/* main part 2 remake */
 .success-stories {
-    width: 1920px;
-    min-height: 280px;
+    width: 1440px;
+    height: 745px;
+    /* min-height: 280px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +13,7 @@
 }
 
 .move-photo{
-    width: 1920px;
+    width: 1440px;
     height: auto;
     background-color: #004047;
     margin: 0 auto;
@@ -20,7 +22,7 @@
 .move-photo1 {
     display: flex;
     justify-content: flex-end;
-    width: 1920px;
+    width: 1440px;
     height: auto;
     background-color: #004047;
     margin: 0 auto;
@@ -31,7 +33,8 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 27px;
+    margin-top: 90px;
+    margin-bottom: 20px;
 }
 
 .success-stories__title h2 {
@@ -44,15 +47,20 @@
 }
  
 .persons-table {
-    width: 1440px;
+    width: 1110px;
     height: auto;
     display: flex;
     justify-content: space-between;
     gap: 40px;                      
 }
 
+.persons-table h3 {
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
 .persons-table p{
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.6;
     margin: 0;
 }
@@ -76,10 +84,24 @@
 }
 
 .persons-photo{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
-
+.home_main2 {
+    position: relative;
+    width: 1440px;
+    margin: auto;
+}
+.home_main2_decor1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.home_main2_decor2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 
 
 
