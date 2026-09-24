@@ -82,3 +82,62 @@
 
 
 
+
+/* main part 1 */
+
+.home_main1 {
+    background-color: #012F34;
+    color: white;
+    width: 1440px;
+    height: 684px;
+    margin: auto;
+
+    position: relative;
+    display: flex;
+}
+.home_main1-wrap {
+    width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: baseline; */
+    
+}
+
+.home_main1_build-teams {
+    width: 419px;
+    height: 144px;
+    font-size: 28px;
+    line-height: 1;
+    margin-top: -30px;
+}
+
+.home_main1_points {
+    width: 540px;
+    /* height: 346px; */
+    display: grid;
+    grid-template-columns: 72px 445px;
+    grid-template-rows: 94px;
+    gap: 20px;
+}
+.home_main1_points h3 {
+    color: #F67E7E;
+    line-height: 0;
+}
+
+.home_main1_point-img {
+    pointer-events: none;
+}
+
+.home_main1_decor1 {
+    height: 244px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    pointer-events: none;
+}
+
+.home_main1_build-teams_decor {
+    pointer-events: none;
+    position: absolute;
+}
