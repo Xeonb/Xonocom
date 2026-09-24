@@ -4,7 +4,7 @@ body{
 }
 
 .success-stories {
-    width: 1920px;
+    width: 1380px;
     min-height: 280px;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,7 @@ body{
 }
 
 .move-photo{
-    width: 1920px;
+    width: 1440px;
     height: auto;
     background-color: #004047;
     margin: 0 auto;
@@ -26,7 +26,7 @@ body{
 .move-photo1 {
     display: flex;
     justify-content: flex-end;
-    width: 1920px;
+    width: 1440px;
     height: auto;
     background-color: #004047;
     margin: 0 auto;
@@ -50,7 +50,7 @@ body{
 }
  
 .persons-table {
-    width: 1440px;
+    width: 1380px;
     height: auto;
     display: flex;
     justify-content: space-between;

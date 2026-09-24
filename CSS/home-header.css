@@ -1,7 +1,7 @@
 header{
     background-color: #014E56;
     width: 1440px;
-    height: 700px;
+    height: auto;
     margin: 0 auto;
 }
 .logoimg{
@@ -23,7 +23,7 @@ header{
     gap: 10px;
 }
 .contactus{
-    padding-left: 400px;
+    padding-left: 250px;
 }
 
 .logotext-home{
@@ -47,12 +47,13 @@ header{
     color: white;
     font-size: 15px;
     border: 2px solid white;
-    padding: 0px 45px 45px;
+    padding: 14px 35px;      
     border-radius: 100px;
     text-decoration: none;
     display: flex;
-    justify-content: center;
+    justify-content: center;  
 }
+
 .home-header{
     padding-top: 60px;
 }
@@ -89,9 +90,9 @@ header{
     width: 540px;
     height: 300px;
 }
+
+
 .home-2cicrle-box{
-    width: 200px;
-    height: 200px;
-    padding-top: 70px;
-    padding-left: 916px;
+    display: flex;
+    justify-content: flex-end;
 }
