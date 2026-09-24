@@ -1,3 +1,7 @@
+body{
+    font-family: "Livvic", sans-serif;
+    margin: 0 auto;
+}
 header{
     background-color: #014E56;
     width: 1440px;
@@ -94,15 +98,6 @@ header{
     height: 200px;
     padding-top: 70px;
     padding-left: 916px;
-}
-body{
-    font-family: "Livvic", sans-serif;
-    margin: 0 auto;
-}
-
-* {
-    box-sizing: border-box;
-    
 }
 
 .success-stories {
