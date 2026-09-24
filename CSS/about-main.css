@@ -50,6 +50,9 @@
     font-size: 18px;
     margin-bottom: -10px;
 }
+.about_main-1_directors-tile p:last-of-type {
+    font-style: italic;
+}
 .about_main-1_directors-tile img {
     margin-bottom: -10px;
     height: 96px;
