@@ -50,7 +50,7 @@ body{
 }
  
 .persons-table {
-    width: 1380px;
+    width: 1200px;
     height: auto;
     display: flex;
     justify-content: space-between;
