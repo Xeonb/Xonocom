@@ -4,19 +4,21 @@ body{
 }
 
 .success-stories {
-    width: 1380px;
+    width: 100%;
+    max-width: 1440px;
     min-height: 280px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #004047;
     color: white;
-    padding: 16px 30px 70px;
+    padding: 16px 0px 70px;
     margin: 0 auto;
 }
 
 .move-photo{
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     height: auto;
     background-color: #004047;
     margin: 0 auto;
@@ -26,7 +28,8 @@ body{
 .move-photo1 {
     display: flex;
     justify-content: flex-end;
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     height: auto;
     background-color: #004047;
     margin: 0 auto;
@@ -43,6 +46,7 @@ body{
 .success-stories__title h2 {
     font-size: 48px;
     line-height: 1;
+    margin: 0 auto;
 }
 
 .success-stories__title span {
@@ -50,7 +54,8 @@ body{
 }
  
 .persons-table {
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     height: auto;
     display: flex;
     justify-content: space-between;
@@ -60,14 +65,13 @@ body{
 .persons-table p{
     font-size: 17px;
     line-height: 1.6;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .column-line1, .column-line2, .column-line3 {
     text-align: center;
     display: flex;
     flex-direction: column;
-    align-content: space-between;
 }
 
 .column-line1 h3, .column-line2 h3, .column-line3 h3{
@@ -82,7 +86,7 @@ body{
 }
 
 .persons-photo{
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 
