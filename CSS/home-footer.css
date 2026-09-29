@@ -60,14 +60,14 @@ footer{
 
 .start {
     width: 100%;
-    max-width: 1345px;
+    max-width: 1110px;
     margin: 0 auto;
     background-color: #002529;
     min-height: 145px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 48px;
+    padding: 48px 165px;
     color: #fff;
 }
  
