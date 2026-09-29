@@ -70,6 +70,7 @@ body {
     background: transparent;
     font-size: 14px;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .contact-button:hover {
@@ -209,6 +210,11 @@ body {
 .field input:focus+label,
 .field textarea:focus+label {
     color: #ffffff;
+    background-color: #79c8c7;;
+}
+
+.field::placeholder{
+    border-bottom: 1px solid #79c8c7;
 }
 
 
