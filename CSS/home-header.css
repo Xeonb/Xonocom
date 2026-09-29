@@ -26,15 +26,14 @@ header{
     display: flex;
     gap: 90px;
 }
-
 .about {
     background-color: #144e57;
     color: white;
-    padding-left: 165px;
+    margin-left: 165px;
     padding-top: 40px;
     display: flex;
     align-items: center;
-    gap: 200px;
+    gap: 144px;
 }
 
 .about h2 {
