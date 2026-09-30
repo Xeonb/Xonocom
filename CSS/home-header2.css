@@ -212,6 +212,8 @@ header {
 
     .about h2 {
         font-size: 60px;
+        margin-bottom: 0px;
+        margin-top: 90px;
     }
 
     .about-content {
@@ -236,7 +238,7 @@ header {
     }
 
     .about-1circle {
-        margin-left: 750px;
+        margin-left: 650px;
         margin-top: 0px;
         gap: 0px;
     }
