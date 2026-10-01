@@ -97,3 +97,33 @@
     right: 0px;
     bottom: 0px;
 }
+
+
+
+@media (max-width: 992px) {
+    .about_main-2 {
+        width: 768px;
+        height: 308px;
+        overflow: hidden;
+    }
+
+    .about_main-2_decor {
+        top: -100px;
+    }
+    
+    .about_main-2_some-clients {
+        margin-top: 70px;
+        width: 689px;
+        font-size: 22px;
+    }
+    
+    .about_main-2_clients {
+        gap: 50px;
+        height: 28px;
+    }
+
+    .about_main-2_clients-box {
+        width: 100px;
+        height: 28px;
+    }
+}
