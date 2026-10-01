@@ -104,3 +104,25 @@ header{
     display: flex;
     justify-content: flex-end;
 }
+@media screen and (max-width: 768px) {
+    .home_main1{
+        width: 768px;
+    }
+    .home_main1_decor1{
+        padding-bottom: 440px;
+    }
+    .home_main1-wrap{
+        display: flex;
+        flex-direction: column;
+    }
+    .home_main1_build-teams{
+        font-size:  22px;
+        width: 450px;
+        margin-left: 80px;
+    }
+    .home_main1_points{
+        width: 450px;
+        margin-left: 70px;
+    }
+    
+}
