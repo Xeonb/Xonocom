@@ -97,3 +97,42 @@
     right: 0px;
     bottom: 0px;
 }
+
+
+
+
+/* media queries mobile*/
+@media (max-width: 768px) {
+    .about_main-1 {
+        width: 375px;
+        height: 2040px;
+        overflow: hidden;
+        z-index: 0;
+    }
+
+    .about_main-1_directors {
+        grid-template-rows: repeat(6, 281px);
+        grid-template-columns: 327px;
+    }
+
+    .about_main-1_meet-directors {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 327px;
+        font-size: 22px;
+    }
+
+    .about_main-1_decor-1 {
+        top: -100px;
+        z-index: -1;
+    }
+
+    .about_main-1_decor-2 {
+        right: 0px;
+        bottom: -23px;
+    }
+
+    .about_main-1_directors-tile {
+        width: 327px;
+    }
+}
