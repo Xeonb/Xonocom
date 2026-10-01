@@ -234,4 +234,46 @@ nav a:hover {
     .cta img{
         margin-top: 200px;
     }
+
+    .start{
+        width: 100%;
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 15px;
+    }
+
+    .socials2{
+        display: none;
+    }
+
+    .footer-info{
+        margin-left: -5px;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .socials{
+        display: flex;
+    }
+
+    .texttablet{
+        display: none;
+    }
+
+    .footer-right p{
+        display: flex;
+    }
+
+    .footer-right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .footer-right a{
+        margin-top: 35px;
+    }
+
 }
