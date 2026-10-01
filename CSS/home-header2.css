@@ -55,6 +55,11 @@ header{
     align-items: center; 
 }
 
+.logotext1:hover{
+    color: black;
+    background-color: #fff;
+}
+
 .home-header{
     padding-top: 60px;
 }
