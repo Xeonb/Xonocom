@@ -111,6 +111,14 @@ header {
     display: flex;
     justify-content: flex-end;
 }
+
+.logotext-home:hover{
+    color: #F67E7E
+}
+
+.logotext-about:hover{
+    color: #F67E7E;
+}
  
 @media screen and (max-width: 768px) {
     header {
