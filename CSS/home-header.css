@@ -104,3 +104,8 @@ header{
     display: flex;
     justify-content: flex-end;
 }
+
+.logotext:hover{
+    color: black;
+    background-color: #fff;
+}
