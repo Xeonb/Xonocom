@@ -94,19 +94,19 @@ body{
 .home_main1 {
     background-color: #012F34;
     color: white;
-    width: 1440px;
-    height: 684px;
+    max-width: 1340px;
     margin: auto;
- 
+    padding: 100px 50px;
     position: relative;
     display: flex;
+    background-image: url("../img/dekoracija4.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .home_main1-wrap {
-    width: 1110px;
     margin: auto;
     display: flex;
     justify-content: space-around;
-    /* align-items: baseline; */
     
 }
  
@@ -119,8 +119,6 @@ body{
 }
  
 .home_main1_points {
-    width: 540px;
-    /* height: 346px; */
     display: grid;
     grid-template-columns: 72px 445px;
     grid-template-rows: 94px;
@@ -135,13 +133,6 @@ body{
     pointer-events: none;
 }
  
-.home_main1_decor1 {
-    height: 244px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    pointer-events: none;
-}
  
 .home_main1_build-teams_decor {
     pointer-events: none;
@@ -185,10 +176,8 @@ body{
     height: 253px;
     text-align: center;
     margin-bottom: 50px;
- 
     position: relative;
     font-size: 15px;
- 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -304,13 +293,41 @@ body{
 
 
 
+@media screen and (max-width: 768px) {
+    .home_main1 {
+        width: 768px;
+        padding: 120px 0px;
+        background-image: url("../img/dekoracija4.png");
+        background-repeat: no-repeat;
+        background-position: topgit  right;
+    }
 
-@media (max-width: 768px) {
-    .persons-table{
+    .home_main1_decor1 {
+        padding-bottom: 440px;
+    }
+
+    .home_main1-wrap {
+        margin-right: 0px;
+        margin-left: 0px;
         display: flex;
         flex-direction: column;
-        margin-top: 50px;
+    }
+
+    .home_main1_build-teams {
+        font-size: 22px;
+        width: 450px;
+        margin-left: 80px;
+    }
+
+    .home_main1_points {
+        width: 450px;
+        margin-left: 70px;
+    }
+
+
+    .logotext1:hover {
+        color: black;
+        background-color: #fff;
     }
 }
-
 
