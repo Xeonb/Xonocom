@@ -71,6 +71,7 @@ footer{
     color: #fff;
 }
  
+
 .footer-left {
     display: flex;
     flex-direction: column;
@@ -145,6 +146,71 @@ nav a:hover {
 .socials img {
     width: 24px;
     height: 24px;
-    display: block;
+    display: block;   
+}
+
+.socials2{
+    display: none;
+}
+
+.texttablet{
+    display: none;
+}
+
+@media (max-width: 768px) {
     
+    .cta_in{
+    width: 100%;
+    max-width: 650px;
+
+    }
+
+    .cta_in a {
+        width: 153px;
+        height: 48px;
+    }
+
+    .cta_in h2{
+        margin-right: 130px;
+        font-size: 32px;
+    }
+
+    .cta img{
+        margin-top: 110px;
+    }
+
+    .footer-right p{
+        display: none;
+    }
+
+    .socials{
+        display: none;
+    }
+
+    .socials2{
+        display: flex;
+        gap: 25px;
+    }
+
+    .start{
+        width: 100%;
+        width: 700px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer-info{
+        margin-left: 50px;
+        text-align: right;
+    }
+
+    .footer-left{
+        display: flex;
+        
+    }
+
+    .texttablet{
+        display: flex;
+        margin-top: 10px;
+    }
 }
