@@ -112,6 +112,11 @@ header {
     justify-content: flex-end;
 }
 
+.logotext1:hover {
+    color: black;
+    background-color: #fff;
+}
+
 .logotext-home:hover{
     color: #F67E7E
 }
@@ -237,4 +242,4 @@ header {
         color: black;
         background-color: #fff;
     }
-}
+}}
