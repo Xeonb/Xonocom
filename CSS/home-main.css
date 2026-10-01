@@ -332,3 +332,19 @@ body{
     }
 }
 
+
+@media (max-width: 375px) {
+    .persons-table{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .success-stories__title h2{
+        font-size: 26px;
+        line-height: 32px;
+        text-align: center;
+    }
+}
+
+
