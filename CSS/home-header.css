@@ -4,12 +4,12 @@ header {
     height: auto;
     margin: 0 auto;
 }
-
+ 
 .logoimg {
     width: 160px;
     height: 40px;
 }
-
+ 
 .pagesection {
     width: 380px;
     height: 40px;
@@ -19,16 +19,16 @@ header {
     display: flex;
     gap: 90px;
 }
-
+ 
 .pagesection div {
     display: flex;
     gap: 10px;
 }
-
+ 
 .contactus {
     margin-left: 400px;
 }
-
+ 
 .logotext-home {
     padding-top: 6px;
     color: white;
@@ -37,7 +37,7 @@ header {
     width: 90px;
     text-decoration: none;
 }
-
+ 
 .logotext-about {
     padding-top: 5px;
     color: white;
@@ -46,7 +46,7 @@ header {
     width: 90px;
     text-decoration: none;
 }
-
+ 
 .logotext1 {
     width: 70px;
     color: white;
@@ -59,13 +59,13 @@ header {
     justify-content: center;
     align-items: center;
 }
-
-
-
+ 
+ 
+ 
 .home-header {
     padding-top: 60px;
 }
-
+ 
 .home-text {
     color: white;
     width: 1440px;
@@ -74,16 +74,16 @@ header {
     display: flex;
     flex-direction: row;
 }
-
+ 
 .home-circle-box {
     width: 200px;
     height: 200px;
 }
-
+ 
 .circle1 {
     margin-top: 60px;
 }
-
+ 
 .text1 {
     padding-left: 64px;
     font-size: 90px;
@@ -91,11 +91,11 @@ header {
     width: 635px;
     height: 200px;
 }
-
+ 
 .text1 span {
     color: #F67E7E;
 }
-
+ 
 .text2 {
     width: 300px;
     line-height: 28px;
@@ -105,44 +105,126 @@ header {
     width: 540px;
     height: 300x;
 }
-
-
+ 
+ 
 .home-2cicrle-box {
     display: flex;
     justify-content: flex-end;
 }
-
-.logotext1:hover {
-    color: black;
-    background-color: #fff;
-}
-
+ 
 @media screen and (max-width: 768px) {
+    header {
+        width: 768px;
+    }
+ 
+    .pagesection {
+        width: 768px;
+        height: 40px;
+        padding-top: 50px;
+        margin-left: 50px;
+        padding-left: 0px;
+        flex-direction: row;
+        display: flex;
+        gap: 55px;
+    }
+ 
+    .logotext1 {
+        margin-left: 85px;
+        width: 70px;
+        color: white;
+        font-size: 15px;
+        border: 2px solid white;
+        padding: 14px 35px;
+        border-radius: 100px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+    .contactus {
+        margin-left: 0px;
+    }
+ 
+    .circle1 {
+        display: none;
+    }
+ 
+    .home-header {
+        padding-top: 0px;
+        height: 700px;
+    }
+ 
+    .home-text {
+        padding-top: 40px;
+        justify-content: center;
+        color: white;
+        width: 683px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .text1 {
+        text-align: center;
+        margin-left: 60px;
+        padding-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 80px;
+        line-height: 1;
+        width: 683px;
+        height: 200px;
+    }
+ 
+    .text1 span {
+        color: #F67E7E;
+    }
+ 
+    .text2 {
+ 
+        text-align: center;
+        margin-left: 180px;
+        padding-left: 0px;
+        padding-top: 0px;
+        width: 457px;
+        line-height: 28px;
+        font-size: 19px;
+        height: 100px;
+    }
+ 
+    .home-2cicrle-box {
+        padding-top: 110px;
+        margin-right: 200px;
+        display: flex;
+        justify-content: flex-end;
+    }
+ 
     .home_main1 {
         width: 768px;
     }
-
+ 
     .home_main1_decor1 {
         padding-bottom: 440px;
     }
-
+ 
     .home_main1-wrap {
         display: flex;
         flex-direction: column;
     }
-
+ 
     .home_main1_build-teams {
         font-size: 22px;
         width: 450px;
         margin-left: 80px;
     }
-
+ 
     .home_main1_points {
         width: 450px;
         margin-left: 70px;
     }
-
-
+ 
+ 
     .logotext1:hover {
         color: black;
         background-color: #fff;
