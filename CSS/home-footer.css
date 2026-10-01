@@ -225,7 +225,13 @@ nav a:hover {
     }
 
     .cta_in h2{
-        width: 150px;
-        margin-right: 0;
+        display: flex;
+        width: 200px;
+        margin-right: 85px;
+        margin-bottom: 25px;
+    }
+
+    .cta img{
+        margin-top: 200px;
     }
 }
