@@ -97,3 +97,51 @@
     right: 0px;
     bottom: 0px;
 }
+
+
+
+/* media queries mobile*/
+@media (max-width: 768px) {
+    .about_main-2 {
+        width: 375px;
+        height: 632px;
+        overflow: hidden;
+        z-index: 0;
+    }
+
+    .about_main-2_decor {
+        top: -100px;
+        left: -100px;
+        z-index: -1;
+    }
+
+    .about_main-2_wrap {
+        margin: auto;
+        display: flex;
+    }
+
+    .about_main-2_some-clients {
+        margin-top: 50px;
+        margin-bottom: 35px;
+        width: 375px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .about_main-2_clients {
+        margin-bottom: 0px;
+    }
+
+    .about_main-2_clients {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 40px;
+    
+        height: 360px;
+        width: 162px;
+        margin: auto;
+    }
+
+}
