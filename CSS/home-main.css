@@ -203,5 +203,12 @@ body{
     pointer-events: none;
 }
 
+@media (max-width: 768px) {
+    .persons-table{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+}
 
 
