@@ -165,7 +165,7 @@ body {
 .field textarea {
     width: 100%;
     border: 0;
-    border-bottom: 1px solid #79c8c7;
+    border-bottom: 1px solid #ffff;
     outline: none;
     background: transparent;
     color: #ffffff;
@@ -192,7 +192,7 @@ body {
     left: 12px;
     top: 18px;
 
-    color: #79c8c7;
+    color: #ffffff;
 
     font-size: 13px;
     font-weight: 500;
@@ -204,7 +204,7 @@ body {
 
 .field input:focus,
 .field textarea:focus {
-    border-bottom-color: #ffffff;
+    border-bottom-color: #79c8c7;
 }
 
 .field input:focus+label,
@@ -245,11 +245,11 @@ body {
     width: 103px;
     height: 41px;
 
-    border: none;
+    border: 1px solid white ;
     border-radius: 25px;
 
-    background: #ffffff;
-    color: #004e56;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 78, 86);
 
     font-family: 'Livvic', sans-serif;
 
@@ -262,7 +262,9 @@ body {
 }
 
 .submit-button:hover {
-    background: #79c8c7;
+    background: rgb(1, 78, 86);
+    border:1px solid white ;
+    color: white;
 }
 
 .submit-button:active {
@@ -357,5 +359,8 @@ nav a:hover {
     width: 24px;
     height: 24px;
     display: block;
+    
+}
+@media (max-width: 768px){
     
 }
