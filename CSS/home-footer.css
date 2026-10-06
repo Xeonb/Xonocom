@@ -69,15 +69,15 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 48px 11.45vw;
+    padding: 48px 6.45%;
     color: #fff;
 }
  
 
 .footer-left {
+    width: 40%;
     display: flex;
     justify-content: space-between;
-    gap: 13.8vw;
 }
  
 .logo {
