@@ -60,23 +60,24 @@ footer{
 
 
 .start {
+    box-sizing: border-box;
     width: 100%;
-    max-width: 1110px;
+    max-width: 1440px;
     margin: 0 auto;
     background-color: #002529;
     min-height: 145px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 48px 165px;
+    padding: 48px 11.45vw;
     color: #fff;
 }
  
 
 .footer-left {
     display: flex;
-    flex-direction: column;
-    gap: 25px;
+    justify-content: space-between;
+    gap: 13.8vw;
 }
  
 .logo {
@@ -87,6 +88,7 @@ footer{
 nav {
     display: flex;
     gap: 40px;
+    margin-top: 25px;
 }
  
 nav a {
@@ -109,7 +111,6 @@ nav a:hover {
     opacity: 0.6;
     font-size: 15px;
     line-height: 25px;
-    margin-left: -225px;
 }
  
 .footer-info p {
@@ -128,6 +129,7 @@ nav a:hover {
  
 .footer-right p {
     margin: 0;
+    text-align: right;
 }
  
 .socials {
@@ -207,17 +209,36 @@ nav a:hover {
     }
 
     .footer-info{
-        margin-left: 220px;
+        right: 34px;
+        position: absolute;
         text-align: right;
+        margin-top: 10px;
+    }
+
+    .footer-info p {
+        font-size: clamp(12px, 3vw, 16px);
     }
 
     .footer-left{
+        width: 100%;
+        gap: 25px;
         display: flex;
+        flex-direction: column;
     }
 
     .texttablet{
         display: flex;
-        margin-top: 10px;
+        margin-top: 25px;
+    }
+    
+    nav{
+        margin-top: 50px;
+    }
+
+    .socials2 a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -258,10 +279,23 @@ nav a:hover {
         margin-left: -5px;
         text-align: center;
         margin-top: 25px;
+        position: static;
+    }
+
+    .footer-info p{
+        font-size: clamp(16px, 3vw, 20px);
+    }
+
+    .footer-left{
+        gap: 10px;
     }
 
     .socials{
         display: flex;
+    }
+
+    nav{
+        margin-top: 35px;
     }
 
     .texttablet{
@@ -276,7 +310,7 @@ nav a:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 15px;
+        gap: 25px;
     }
 
     .footer-right a{
