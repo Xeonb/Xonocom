@@ -20,8 +20,8 @@ footer{
 }
  
 .cta_in{
-    width: 100%;
-    max-width: 945px;
+    box-sizing: border-box;
+    max-width: 1440px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -31,10 +31,11 @@ footer{
  
 .cta_in h2{
     margin: 0 auto;
-    font-size: 48px;
+    font-size: clamp(28px, 3vw, 48px);
     line-height: 1;
     color: #012F34;
     margin-right: 235px;
+    margin-bottom: 20px;
 }
  
 .cta_in a{
@@ -59,23 +60,24 @@ footer{
 
 
 .start {
+    box-sizing: border-box;
     width: 100%;
-    max-width: 1110px;
+    max-width: 1440px;
     margin: 0 auto;
     background-color: #002529;
     min-height: 145px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 48px 165px;
+    padding: 48px 11.45vw;
     color: #fff;
 }
  
 
 .footer-left {
     display: flex;
-    flex-direction: column;
-    gap: 25px;
+    justify-content: space-between;
+    gap: 13.8vw;
 }
  
 .logo {
@@ -86,6 +88,7 @@ footer{
 nav {
     display: flex;
     gap: 40px;
+    margin-top: 25px;
 }
  
 nav a {
@@ -108,7 +111,6 @@ nav a:hover {
     opacity: 0.6;
     font-size: 15px;
     line-height: 25px;
-    margin-left: -225px;
 }
  
 .footer-info p {
@@ -127,6 +129,7 @@ nav a:hover {
  
 .footer-right p {
     margin: 0;
+    text-align: right;
 }
  
 .socials {
@@ -160,14 +163,16 @@ nav a:hover {
 @media (max-width: 768px) {
     
     .cta {
-    width: 100%;
-    max-width: 768px;
+        width: 100%;
+        max-width: 768px;
     }
 
     .cta_in{
-    width: 100%;
-    max-width: 650px;
-
+        
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        max-width: 768px;
     }
 
     .cta_in a {
@@ -176,8 +181,9 @@ nav a:hover {
     }
 
     .cta_in h2{
-        margin-right: 130px;
-        font-size: 32px;
+        margin-bottom: 0px;
+        margin: 0;
+        font-size: clamp(20px, 5vw, 32px);
     }
 
     .cta img{
@@ -205,17 +211,36 @@ nav a:hover {
     }
 
     .footer-info{
-        margin-left: 220px;
+        right: 28px;
+        position: absolute;
         text-align: right;
+        margin-top: 10px;
+    }
+
+    .footer-info p {
+        font-size: clamp(10px, 3vw, 15px);
     }
 
     .footer-left{
+        width: 100%;
+        gap: 25px;
         display: flex;
+        flex-direction: column;
     }
 
     .texttablet{
         display: flex;
-        margin-top: 10px;
+        margin-top: 25px;
+    }
+    
+    nav{
+        margin-top: 50px;
+    }
+
+    .socials2 a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -227,13 +252,15 @@ nav a:hover {
         flex-direction: column;
         margin: 0 auto;
         text-align: center;
+        gap: 25px;
     }
 
     .cta_in h2{
         display: flex;
         width: 200px;
-        margin-right: 85px;
-        margin-bottom: 25px;
+        margin-top: -5px;
+        gap: 25px;
+        font-size: clamp(32px, 3vw, 40px);
     }
 
     .cta img{
@@ -256,10 +283,25 @@ nav a:hover {
         margin-left: -5px;
         text-align: center;
         margin-top: 25px;
+        position: static;
+    }
+
+    .footer-info p{
+        font-size: clamp(16px, 3vw, 20px);
+    }
+
+    .footer-left{
+        gap: 10px;
     }
 
     .socials{
         display: flex;
+    }
+
+    nav{
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
     }
 
     .texttablet{
@@ -274,7 +316,7 @@ nav a:hover {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 15px;
+        gap: 25px;
     }
 
     .footer-right a{
@@ -286,4 +328,10 @@ nav a:hover {
         margin: 0 auto;
     }
 
+}
+
+@media (max-width: 625px){
+    .cta img{
+        margin-top: 215px;
+    }
 }
