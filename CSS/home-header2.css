@@ -29,7 +29,7 @@
     }
  
 header {
-    background-color: #014E56;
+    background: #014E56;
     width: 1440px;
     height: auto;
     margin: 0 auto;
@@ -160,7 +160,6 @@ header {
 }
  
 .about {
-    background-color: #144e57;
     color: white;
     margin-left: 165px;
     padding-top: 40px;
