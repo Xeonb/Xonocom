@@ -252,12 +252,14 @@ nav a:hover {
         flex-direction: column;
         margin: 0 auto;
         text-align: center;
+        gap: 25px;
     }
 
     .cta_in h2{
         display: flex;
         width: 200px;
-        margin-bottom: 25px;
+        margin-top: -5px;
+        gap: 25px;
         font-size: clamp(32px, 3vw, 40px);
     }
 
@@ -324,4 +326,10 @@ nav a:hover {
         margin: 0 auto;
     }
 
+}
+
+@media (max-width: 625px){
+    .cta img{
+        margin-top: 215px;
+    }
 }
