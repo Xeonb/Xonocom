@@ -21,41 +21,6 @@ body {
 }
 
 
-.top-p {
-    width: 920px;
-    max-width: calc(100% - 48px);
-    margin: 0 auto;
-    padding-top: 63px;
-    display: flex;
-    align-items: center;
-}
-
-.logo {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 1;
-    letter-spacing: -1px;
-}
-
-.nav-links {
-    display: flex;
-    gap: 38px;
-    margin-left: 66px;
-}
-
-.nav-links a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 600;
-
-}
-
-.nav-links a:hover {
-    opacity: 0.7;
-}
 
 .contact-button {
     margin-left: auto;
@@ -89,15 +54,16 @@ body {
 
 .page>img:nth-of-type(2) {
     position: absolute;
-    width: 142px;
+    top: 163px;
+    width: 100px;
     height: auto;
 }
 
 
 .contact-section {
-    width: 920px;
-    max-width: calc(100% - 48px);
-    margin: 111px auto 0;
+    max-width: 1440px;
+    width: 75%;
+    margin: 111px 155px;
     display: grid;
     grid-template-columns: 395px 1fr;
     column-gap: 81px;
@@ -270,6 +236,7 @@ body {
 .submit-button:active {
     transform: scale(0.97);
 }
+
 
 
 @media (max-width: 768px){
