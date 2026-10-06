@@ -282,6 +282,14 @@ nav a:hover {
         position: static;
     }
 
+    .footer-info p{
+        font-size: clamp(16px, 3vw, 20px);
+    }
+
+    .footer-left{
+        gap: 10px;
+    }
+
     .socials{
         display: flex;
     }
