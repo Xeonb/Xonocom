@@ -20,7 +20,7 @@ This is a website project from school to learn how to work in teams, work with J
 
 ## Project Goals
 
-The main goals of the project are to:
+##The main goals of the project are to:
 
 * Improve our HTML, CSS and JavaScript skills
 * Learn how to work with Git and GitHub
