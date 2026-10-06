@@ -20,8 +20,8 @@ footer{
 }
  
 .cta_in{
-    width: 100%;
-    max-width: 945px;
+    box-sizing: border-box;
+    max-width: 1440px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -168,9 +168,11 @@ nav a:hover {
     }
 
     .cta_in{
-        padding: 0 90px;
+        
+        display: flex;
+        justify-content: space-evenly;
         width: 100%;
-
+        max-width: 768px;
     }
 
     .cta_in a {
