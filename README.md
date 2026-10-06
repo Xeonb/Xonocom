@@ -30,3 +30,4 @@ This is a website project from school to learn how to work in teams, work with J
 **Improve communication and collaboration within a development team**
 **Gain experience working on a project similar to a real development environment**
 
+
