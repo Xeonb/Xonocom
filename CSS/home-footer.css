@@ -212,6 +212,11 @@ nav a:hover {
         right: 34px;
         position: absolute;
         text-align: right;
+        margin-top: 10px;
+    }
+
+    .footer-info p {
+        font-size: clamp(12px, 3vw, 16px);
     }
 
     .footer-left{
@@ -223,7 +228,7 @@ nav a:hover {
 
     .texttablet{
         display: flex;
-        margin-top: 35px;
+        margin-top: 25px;
     }
     
     nav{
