@@ -31,10 +31,11 @@ footer{
  
 .cta_in h2{
     margin: 0 auto;
-    font-size: 48px;
+    font-size: clamp(28px, 3vw, 48px);
     line-height: 1;
     color: #012F34;
     margin-right: 235px;
+    margin-bottom: 20px;
 }
  
 .cta_in a{
@@ -160,13 +161,13 @@ nav a:hover {
 @media (max-width: 768px) {
     
     .cta {
-    width: 100%;
-    max-width: 768px;
+        width: 100%;
+        max-width: 768px;
     }
 
     .cta_in{
-    width: 100%;
-    max-width: 650px;
+        padding: 0 90px;
+        width: 100%;
 
     }
 
@@ -176,8 +177,9 @@ nav a:hover {
     }
 
     .cta_in h2{
-        margin-right: 130px;
-        font-size: 32px;
+        margin-bottom: 0px;
+        margin: 0;
+        font-size: clamp(20px, 5vw, 32px);
     }
 
     .cta img{
@@ -232,8 +234,8 @@ nav a:hover {
     .cta_in h2{
         display: flex;
         width: 200px;
-        margin-right: 85px;
         margin-bottom: 25px;
+        font-size: clamp(32px, 3vw, 40px);
     }
 
     .cta img{
