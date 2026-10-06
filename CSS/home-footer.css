@@ -216,7 +216,7 @@ nav a:hover {
     }
 
     .footer-info p {
-        font-size: clamp(12px, 3vw, 16px);
+        font-size: clamp(10px, 3vw, 15px);
     }
 
     .footer-left{
