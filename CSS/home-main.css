@@ -59,7 +59,8 @@ body{
     height: auto;
     display: flex;
     justify-content: space-between;
-    gap: 40px;                      
+    gap: 40px;
+    margin-top: 40px;                      
 }
 
 .persons-table p{
