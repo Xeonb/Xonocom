@@ -1,14 +1,47 @@
-header{
-    background-color: #014E56;
+.home_main1 {
+        width: 768px;
+    }
+ 
+    .home_main1_decor1 {
+        padding-bottom: 440px;
+    }
+ 
+    .home_main1-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .home_main1_build-teams {
+        font-size: 22px;
+        width: 450px;
+        margin-left: 80px;
+    }
+ 
+    .home_main1_points {
+        width: 450px;
+        margin-left: 70px;
+    }
+ 
+ 
+    .logotext1:hover {
+        color: black;
+        background-color: #fff;
+    }
+ 
+header {
+    background: #014E56;
     width: 1440px;
     height: auto;
     margin: 0 auto;
 }
-.logoimg{
+ 
+.logoimg {
     width: 160px;
     height: 40px;
+    
 }
-.pagesection{
+ 
+.pagesection {
     width: 380px;
     height: 40px;
     padding-top: 50px;
@@ -16,54 +49,61 @@ header{
     display: flex;
     gap: 90px;
 }
-
-.pagesection div{ 
+ 
+.pagesection div {
     display: flex;
     gap: 10px;
 }
-.contactus{
+ 
+.contactus {
     margin-left: 400px;
 }
-
-.logotext-home{
+ 
+.logotext-home {
     padding-top: 6px;
     color: white;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 500;
     width: 90px;
     text-decoration: none;
 }
-.logotext-about{
+ 
+.logotext-about {
     padding-top: 5px;
     color: white;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 500;
     width: 90px;
     text-decoration: none;
 }
-
-.logotext1{
+ 
+.logotext1 {
     width: 70px;
     color: white;
     font-size: 15px;
     border: 2px solid white;
-    padding: 14px 35px;      
+    padding: 14px 35px;
     border-radius: 100px;
     text-decoration: none;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+}
+
+.logotext2{
+    display: none;
 }
 
 .logotext1:hover{
     color: black;
     background-color: #fff;
 }
-
+ 
 .home-header{
     padding-top: 60px;
 }
-.home-text{
+ 
+.home-text {
     color: white;
     width: 1440px;
     height: 400px;
@@ -71,57 +111,60 @@ header{
     display: flex;
     flex-direction: row;
 }
-
-.home-circle-box{
+ 
+.home-circle-box {
     width: 200px;
     height: 200px;
 }
-
-.circle1{
+ 
+.circle1 {
     margin-top: 60px;
 }
-
-.text1{
+ 
+.text1 {
     padding-left: 64px;
     font-size: 90px;
     line-height: 1.2;
     width: 635px;
     height: 200px;
 }
-.text1 span{
+ 
+.text1 span {
     color: #F67E7E;
 }
-.text2{
+ 
+.text2 {
     width: 300px;
     line-height: 28px;
-    font-size:  22px;
+    font-size: 22px;
     padding-top: 152px;
     padding-left: 30px;
     width: 540px;
     height: 300px;
 }
-
-
-.home-2cicrle-box{
+ 
+ 
+.home-2cicrle-box {
     display: flex;
     justify-content: flex-end;
 }
-
-.logoimg{
+ 
+.logoimg {
     width: 160px;
     height: 40px;
 }
-.pagesection{
+ 
+.pagesection {
     width: 380px;
     height: 40px;
-    padding-top: 70px;
-    padding-left: 165px;
+    padding-top: 50px;
+    padding-left: 160px;
     flex-direction: row;
     display: flex;
     gap: 90px;
 }
+ 
 .about {
-    background-color: #144e57;
     color: white;
     margin-left: 165px;
     padding-top: 40px;
@@ -143,16 +186,259 @@ header{
     height: 4px;
     background-color: #f67e7e;
     margin-bottom: 40px;
-    margin-top:110px;
+    margin-top: 110px;
 }
+ 
 .about-text {
     font-size: 15px;
     width: 730px;
     height: 156px;
 }
-.about-1circle{
+ 
+.about-1circle {
     margin-top: 156px;
-    
+ 
 }
 
+.mobile-menu{
+    display: none;
+}
 
+.pagesection button {
+        background-color: #014E56;
+        border: 0;
+    }
+ 
+@media screen and (max-width: 768px) {
+    header {
+        width: 768px;
+    }
+ 
+    .pagesection {
+        width: 768px;
+        height: 40px;
+        padding-top: 50px;
+        margin-left: 50px;
+        padding-left: 0px;
+        flex-direction: row;
+        display: flex;
+        gap: 55px;
+    }
+ 
+    .logotext1 {
+        margin-left: 85px;
+        width: 70px;
+        color: white;
+        font-size: 15px;
+        border: 2px solid white;
+        padding: 14px 35px;
+        border-radius: 100px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+    .contactus {
+        margin-left: 0px;
+    }
+ 
+    .about {
+        width: 683px;
+        height: 550px;
+        background-color: #144e57;
+        color: white;
+        margin-left: 0px;
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0px;
+        margin-left: 50px;
+    }
+ 
+    .about h2 {
+        font-size: 60px;
+        margin-bottom: 0px;
+        margin-top: 90px;
+    }
+ 
+    .about-content {
+        max-width: 710px;
+ 
+    }
+ 
+    .line {
+        width: 0px;
+        height: 0px;
+        background-color: #f67e7e;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+ 
+ 
+    .about-text {
+        line-height: 1.7;
+        font-size: 15px;
+        width: 457px;
+        height: 156px;
+    }
+ 
+    .about-1circle {
+        margin-left: 650px;
+        margin-top: 0px;
+        gap: 0px;
+    }
+}
+
+@media (max-width: 375px){
+    header{
+        width: 100%;
+        max-width: 375px;
+        height: 600px;
+    }
+
+    .about{
+        width: 100%;
+        max-width: 375px;
+        margin: 0;
+        gap: 20px;
+        height: 300px;
+    }
+
+    .circle1{
+        display: none;
+    }
+
+    .about h2{
+        margin-top: 60px;
+        width: 100%;
+        max-width: 375px;
+        margin-left: -1px;
+        font-size: 50px;
+        height: 100px;
+    }
+
+    .about-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 305px;
+        font-size: 16px;
+        margin-left: 0px;
+    }
+
+    .logotext2{
+        display: flex;
+        width: 20px;
+        height: 16px;
+        background-color: #014E56;
+        color: #fff;
+        margin-top: 7px;
+        margin-left: 125px;
+    }
+
+    .pagesection{
+        width: 100%;
+        max-width: 375px;
+        margin-left: 15px;
+    }
+
+    .pagesection > div:first-of-type {
+    display: none;
+    }
+
+    .about-1circle{
+        width: 100%;
+        max-width: 375px;
+        margin-top: 60px;
+        padding-top: 0;
+        margin-left: 270px;
+    }
+
+    .logoimg{
+        width: 130px;
+        height: 32px;
+    }
+
+    .logotext1{
+        display: none;
+    }
+
+    .contactus{
+        display: flex;
+    }
+
+    .contactus button {
+        display: flex;
+        margin-top: 0px;
+    }
+
+     .mobile-menu {
+        position: fixed;
+        top: 0;
+        right: 155px;
+        width: 255px;
+        height: 100vh;
+        background-color: #2C6269;
+        display: flex;
+        display: none;
+        flex-direction: column;
+        transition: right 0.3s ease;
+        z-index: 1000;
+    }
+
+    .mobile-menu.active {
+        right: 0;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 40px;
+        right: 20px;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+    .mobile-menu a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: 600;
+        margin-left: 48px;
+    }
+
+    .mobile-menu a:nth-child(2) {
+        margin-top: 130px;
+    }
+
+    .mobile-menu a:nth-child(3) {
+        margin-top: 25px;
+    }
+
+    .mobile-menu .logotext1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 140px;
+        height: 24px;
+        margin-top: 35px;
+        margin-left: 48px;
+        border: 2px solid white;
+        border-radius: 24px;
+        padding: 12px 0;
+    }
+
+    .mobilephoto {
+        position: absolute;
+        bottom: 0;
+        right: 0px;
+        width: 100px;
+        height: 200px;
+    }
+    
+}
