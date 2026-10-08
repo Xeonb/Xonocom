@@ -348,7 +348,7 @@ header {
      .mobile-menu {
         position: fixed;
         top: 0;
-        right: 155px;
+        right: 0;
         width: 255px;
         height: 100vh;
         background-color: #2C6269;
