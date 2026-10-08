@@ -38,6 +38,7 @@ header {
 .logoimg {
     width: 160px;
     height: 40px;
+    
 }
  
 .pagesection {
@@ -87,6 +88,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.logotext2{
+    display: none;
 }
 
 .logotext1:hover{
@@ -275,4 +280,85 @@ header {
         margin-top: 0px;
         gap: 0px;
     }
+}
+
+@media (max-width: 375px){
+    header{
+        width: 100%;
+        max-width: 375px;
+        height: 600px;
+    }
+
+    .about{
+        width: 100%;
+        max-width: 375px;
+        margin: 0;
+        gap: 20px;
+        height: 300px;
+    }
+
+    .circle1{
+        display: none;
+    }
+
+    .about h2{
+        margin-top: 60px;
+        width: 100%;
+        max-width: 375px;
+        margin-left: -1px;
+        font-size: 50px;
+        height: 100px;
+    }
+
+    .about-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 305px;
+        font-size: 16px;
+        margin-left: 0px;
+    }
+
+    .logotext2{
+        display: flex;
+        width: 20px;
+        height: 16px;
+        background-color: #014E56;
+        color: #fff;
+        margin-top: 7px;
+        margin-left: 125px;
+    }
+
+    .pagesection{
+        width: 100%;
+        max-width: 375px;
+        margin-left: 15px;
+    }
+
+    .pagesection > div:first-of-type {
+    display: none;
+    }
+
+    .about-1circle{
+        width: 100%;
+        max-width: 375px;
+        margin-top: 60px;
+        padding-top: 0;
+        margin-left: 270px;
+    }
+
+    .logoimg{
+        width: 130px;
+        height: 32px;
+    }
+
+    .logotext1{
+        display: none;
+    }
+
+    .contactus{
+        display: flex;
+    }
+    
 }
