@@ -292,9 +292,12 @@ header {
     }
 
     .pagesection{
+        display: flex;
+        justify-content: space-evenly;
         width: 100%;
         max-width: 375px;
-        margin-left: 20px;
+        margin-left: 0px;
+        margin: 0 auto;
     }
 
     .pagesection > div:first-of-type {
@@ -304,7 +307,8 @@ header {
     .home-2cicrle-box{
         width: 100%;
         max-width: 375px;
-        margin-top: 100px;
+        margin-top: 101px;
+        margin-left: -3px;
         padding-top: 0;
     }
 
@@ -319,6 +323,11 @@ header {
 
     .contactus{
         display: flex;
+    }
+
+    .circle2 img{
+        width: 100%;
+        max-width: 375px;
     }
     
 }
