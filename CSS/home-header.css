@@ -60,6 +60,10 @@ header {
     display: flex;
     align-items: center;
 }
+
+.logotext2{
+    display: none;
+}
  
 .home-header {
     padding-top: 60px;
@@ -238,4 +242,53 @@ header {
         color: black;
         background-color: #fff;
     }
+}
+
+@media (max-width: 375px){
+    header{
+        width: 100%;
+        max-width: 375px;
+    }
+
+    .home-text{
+        width: 100%;
+        max-width: 375px;
+        margin: 0;
+    }
+
+    .circle1{
+        display: none;
+    }
+
+    .text1{ 
+        width: 100%;
+        max-width: 375px;
+        margin-left: -1px;
+        font-size: 40px;
+        height: 100px;
+    }
+
+    .text2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 375px;
+        font-size: 16px;
+        margin-left: 0px;
+    }
+    .pagesection div{
+        display: none;
+    }
+
+    .logotext2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pagesection{
+        width: 100%;
+        max-width: 375px;;
+    }
+    
 }
