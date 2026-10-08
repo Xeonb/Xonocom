@@ -6,5 +6,9 @@ const close = document.querySelector(".close-btn")
 
 
 lines.addEventListener("click", () => {
-    
-})
+    menu.style.display = "flex";
+});
+
+close.addEventListener("click", () => {
+    menu.style.display = "none";
+});
