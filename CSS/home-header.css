@@ -287,7 +287,6 @@ header {
         height: 16px;
         background-color: #014E56;
         color: #fff;
-        margin-top: 7px;
         margin-left: 125px;
     }
 
@@ -328,6 +327,11 @@ header {
     .circle2 img{
         width: 100%;
         max-width: 375px;
+    }
+
+    .pagesection button{
+        background-color: #014E56;
+        border: 0;
     }
     
 }
