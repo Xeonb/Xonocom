@@ -235,9 +235,9 @@ header {
 
     .home_main1 {
         width: 100%;
-        max-width: none;
+        max-width: 768px;
         box-sizing: border-box;
-        padding: 120px 10px 80px;
+        padding: 120px 0 80px;
         background-size: 13%;
     }
 
@@ -255,17 +255,17 @@ header {
     .home_main1_build-teams {
         width: 90%;
         height: auto;
-        margin: 0 80px 50px;
+        margin: 0 60px 50px;
         font-size: clamp(22px, 5vw, 18px);
     }
 
     .home_main1_points {
+        display: flex;
         width: 100%;
-        margin: 0 70px;
+        margin: 0 50px;
         grid-template-columns: 72px 1fr;
-        grid-template-rows: none;
         grid-auto-rows: auto;
-        font-size: clamp(8px, 5vw, 15px);
+        font-size: clamp(8px, 5vw, 12px);
     }
 
 
