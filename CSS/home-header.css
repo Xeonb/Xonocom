@@ -390,7 +390,7 @@ header {
 
     .close-btn {
         position: absolute;
-        top: 40px;
+        top: 30px;
         right: 20px;
         background: none;
         border: none;
@@ -409,7 +409,7 @@ header {
     }
 
     .mobile-menu a:nth-child(2) {
-        margin-top: 130px;
+        margin-top: 120px;
     }
 
     .mobile-menu a:nth-child(3) {
