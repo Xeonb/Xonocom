@@ -284,6 +284,10 @@ header {
     .logotext2{
         display: flex;
         flex-direction: column;
+        width: 20px;
+        height: 18px;
+        background-color: #014E56;
+        color: #fff;
     }
 
     .pagesection{
