@@ -103,7 +103,8 @@
 /* media queries mobile*/
 @media (max-width: 768px) {
     .about_main-2 {
-        width: 375px;
+        width: 100%;
+        max-width: 480px;
         height: 632px;
         overflow: hidden;
         z-index: 0;
@@ -125,7 +126,7 @@
         margin-bottom: 35px;
         width: 375px;
         text-align: center;
-        font-size: 22px;
+        font-size: 25px;
     }
 
     .about_main-2_clients {
