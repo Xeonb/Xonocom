@@ -36,4 +36,6 @@ This is a website project from school to learn how to work in teams, work with J
 
 **Gain experience working on a project similar to a real development environment**
 
+## You can see what the site looks like:
 
+**https://xonocom.edgaras-stimburys.workers.dev/**
