@@ -195,7 +195,7 @@
         }
 
         .about_main-2_some-clients {
-            margin-top: 50px;
+            margin-top: 75px;
             margin-bottom: 35px;
             width: 375px;
             text-align: center;
@@ -216,6 +216,42 @@
             height: 360px;
             width: 162px;
             margin: auto;
+        }
+
+        .about_main-1 {
+            width: 100%;
+            max-width: 480px;
+            height: 2040px;
+            overflow: hidden;
+            z-index: 0;
+            margin: 0 auto;
+        }
+
+        .about_main-1_directors {
+            grid-template-rows: repeat(6, 281px);
+            grid-template-columns: 327px;
+        }
+
+        .about_main-1_meet-directors {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            width: 327px;
+            font-size: 22px;
+        }
+
+        .about_main-1_decor-1 {
+            top: -100px;
+            z-index: -1;
+        }
+
+        .about_main-1_decor-2 {
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+        }
+
+        .about_main-1_directors-tile {
+            width: 327px;
         }
     }
 }
