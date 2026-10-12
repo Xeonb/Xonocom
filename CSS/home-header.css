@@ -467,7 +467,7 @@ header {
         font-size: 21px;
         line-height: 1;
         margin-bottom: 0px;
-        margin-left: -40px;
+        margin-left: -25px;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -515,10 +515,10 @@ header {
     }
 
     .home_main1-wrap {
-        width: 327px;
+        width: 90%;
+        max-width: 327px;
         height: 973px;
-        margin: auto;
-        margin-top: 100px;
+        margin: 100px auto 0;
         display: block;
     }
 
@@ -528,14 +528,16 @@ header {
 
     .home_main1_build-teams {
         width: 240px;
+        max-width: 100%;
         height: 196px;
         font-size: 21px;
         line-height: 1;
-        margin-top: 30px;
+        margin: -150px 0 0 -12px;
         position: relative;
         display: flex;
         flex-direction: column;
     }
+
 
     .home_main1_build-teams_decor {
         top: 0;
@@ -543,18 +545,17 @@ header {
     }
 
     .home_main1_points {
-        width: 327px;
-        height: 693px;
+        width: 100%;
+        height: 675px;
         display: grid;
-        grid-template-columns: 327px;
+        grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 82px 161px);
-        grid-row-gap: 0;
-        margin-top: 60px;
-        font-size: clamp(12px, 3vw, 16px);
+        margin: 60px 0 0 0;
     }
 
+
     .home_main1_point-img {
-        width: 327px;
+        width: 100%;
         height: 72px;
         display: flex;
         justify-content: center;
@@ -566,9 +567,5 @@ header {
         height: auto;
     }
 
-
-    .home_main1_build-teams {
-        margin-top: -150px;
-    }
 
 }
