@@ -195,6 +195,12 @@ header {
         align-items: center;
     }
 
+    .home_main1_point-text{
+        width: 100%;
+        max-width: 600px;
+        max-height: 90px;
+    }
+
     .text1 {
         width: 100%;
         max-width: 683px;
@@ -271,6 +277,14 @@ header {
     .logotext1:hover {
         color: black;
         background-color: #fff;
+    }
+}
+
+@media (max-width: 600px) {
+    .home_main1_point-text{
+        width: 85%;
+        max-width: 520px;
+        max-height: 90px;
     }
 }
 
