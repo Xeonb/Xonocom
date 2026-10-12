@@ -329,3 +329,21 @@ body{
         margin-top: 50px;
     }
 }
+
+
+@media (max-width: 480px) {
+    .move-photo{
+        width: 100%;
+        max-width: 480px;
+    }
+
+    .success-stories{
+        width: 100%;
+        max-width: 480px;
+    }
+
+    .move-photo1{
+        width: 100%;
+        max-width: 480px;
+    }
+}
