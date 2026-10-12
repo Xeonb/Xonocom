@@ -247,6 +247,11 @@ nav a:hover {
 }
 
 @media (max-width: 480px) {
+    .cta{
+        width: 100%;
+        max-width: 480px;
+    }
+    
     .cta_in{
         width: 100%;
         max-width: 375px;
