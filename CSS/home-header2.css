@@ -88,6 +88,7 @@ header {
     border-radius: 100px;
     text-decoration: none;
     margin-right: 50px;
+    margin-right: 160px;
 }
 
 .logotext2{
@@ -199,9 +200,9 @@ header {
 }
 
 .pagesection button {
-    display: none;
+        display: none;
         background-color: #014E56;
-        border: 0;
+        border: 0;;
     }
  
 @media screen and (max-width: 768px) {
