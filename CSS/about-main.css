@@ -1,7 +1,8 @@
 .about_main-1 {
     background-color: #004047;
     color: white;
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     height: 1002px;
     margin: auto;
 
@@ -23,6 +24,8 @@
 }
 
 .about_main-1_directors {
+    width: 100%;
+    max-width: 1440px;
     display: grid;
     grid-template-columns: repeat(3, 350px);
     gap: 20px;
