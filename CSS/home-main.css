@@ -241,7 +241,8 @@ body{
 .about_main-2 {
     background-color: #012F34;
     color: white;
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     height: 437px;
     margin: auto;
     position: relative;
