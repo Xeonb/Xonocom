@@ -69,6 +69,10 @@ header {
     width: 90px;
     text-decoration: none;
 }
+
+.logotext-home:hover, .logotext-about:hover{
+    color: #F67E7E
+}
  
 .logotext-about {
     padding-top: 5px;
