@@ -29,8 +29,9 @@
     }
  
 header {
-    background: #014E56;
-    width: 1440px;
+    width: 100%;
+    background-color: #014E56;
+    max-width: 1440px;
     height: auto;
     margin: 0 auto;
 }
@@ -42,10 +43,8 @@ header {
 }
  
 .pagesection {
-    width: 380px;
     height: 40px;
     padding-top: 50px;
-    flex-direction: row;
     display: flex;
     gap: 90px;
 }
@@ -56,7 +55,9 @@ header {
 }
  
 .contactus {
-    margin-left: 400px;
+    margin-left: 40px;
+    margin: auto;
+    margin-right: 110px;
 }
  
 .logotext-home {
@@ -85,9 +86,6 @@ header {
     padding: 14px 35px;
     border-radius: 100px;
     text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .logotext2{
@@ -105,7 +103,6 @@ header {
  
 .home-text {
     color: white;
-    width: 1440px;
     height: 400px;
     padding-top: 40px;
     display: flex;
@@ -134,13 +131,11 @@ header {
 }
  
 .text2 {
-    width: 300px;
+
     line-height: 28px;
     font-size: 22px;
     padding-top: 152px;
     padding-left: 30px;
-    width: 540px;
-    height: 300px;
 }
  
  
@@ -155,8 +150,6 @@ header {
 }
  
 .pagesection {
-    width: 380px;
-    height: 40px;
     padding-top: 50px;
     padding-left: 160px;
     flex-direction: row;
@@ -167,7 +160,6 @@ header {
 .about {
     color: white;
     margin-left: 165px;
-    padding-top: 40px;
     display: flex;
     align-items: center;
     gap: 144px;
@@ -178,21 +170,21 @@ header {
 }
  
 .about-content {
-    max-width: 710px;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
 }
  
 .line {
     width: 40px;
     height: 4px;
     background-color: #f67e7e;
-    margin-bottom: 40px;
-    margin-top: 110px;
+    margin-bottom: 30px;
+    margin-top: 0px;
 }
  
 .about-text {
     font-size: 15px;
-    width: 730px;
-    height: 156px;
 }
  
 .about-1circle {
@@ -219,7 +211,7 @@ header {
     .pagesection {
         width: 100%;
         max-width: 768px;
-        height: 40px;
+        height: 52px;
         padding-top: 50px;
         margin-left: 50px;
         padding-left: 0px;
@@ -234,7 +226,7 @@ header {
         color: white;
         font-size: 15px;
         border: 2px solid white;
-        padding: 14px 35px;
+        padding: 12px 35px;
         border-radius: 100px;
         text-decoration: none;
         display: flex;
@@ -247,7 +239,10 @@ header {
     }
  
     .about {
-        width: 683px;
+        position: relative;
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 768px;
         height: 550px;
         background-color: #144e57;
         color: white;
@@ -257,7 +252,6 @@ header {
         flex-direction: column;
         text-align: center;
         gap: 0px;
-        margin-left: 50px;
     }
  
     .about h2 {
@@ -288,9 +282,11 @@ header {
     }
  
     .about-1circle {
-        margin-left: 650px;
         margin-top: 0px;
         gap: 0px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
     }
 }
 
