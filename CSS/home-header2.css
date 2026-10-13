@@ -211,11 +211,14 @@ header {
  
 @media screen and (max-width: 768px) {
     header {
-        width: 768px;
+        width: 100%;
+        max-width: 768px;
+        background-color: #144e57;
     }
  
     .pagesection {
-        width: 768px;
+        width: 100%;
+        max-width: 768px;
         height: 40px;
         padding-top: 50px;
         margin-left: 50px;
@@ -345,7 +348,6 @@ header {
         height: 16px;
         background-color: #014E56;
         color: #fff;
-        margin-top: 7px;
         margin-left: 125px;
     }
 
